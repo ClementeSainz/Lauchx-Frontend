@@ -1,0 +1,367 @@
+@import url();
+*{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.header {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 20%;
+    height: 10%;
+    position: absolute;
+}
+
+.header h1{
+    color:#1F3E72;
+    background-color: white;
+}
+
+
+.container ul{
+    width: 40%;
+    height: 10%;
+    margin-left: 40%;
+    margin-top: 75px;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+    font-size: 1.25em;
+}
+
+.menu li a{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.menu button{
+    width: 150px;
+    height: 50%;
+    border-radius: 5px;
+    background-color: #2C4CCA;
+    color:white;
+}
+
+.banner{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin-top: -500px;
+    display: flex;
+}
+
+.banner .bannerIzq{
+    width: 40%;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.bannerIzq h3{
+    font-size: 3em;
+    color: #1F3E72;
+}
+
+.bannerIzq p{
+    margin-top: -150px;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.imgBanner{
+    width: 40%;
+    height: 100%;
+    margin: 0px 100px 100px 100px;
+    object-fit: cover;
+}
+ .informacion{
+    width: 60%;
+    height: 10%;
+    top: 300px;
+    left: 250px;
+    position: absolute;
+    display: flex;
+    background-color: #FAFCFE ;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.informacion span{
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-right: -60px;
+    text-align: center;
+}
+
+.informacion button{
+    width: 150px;
+    height: 50px;
+    background-color: #2C4CCA;
+    /* position: absolute;
+    margin-left: -50px; */
+}
+
+.porqueVacunarme{
+    width: 100%;
+    height: 50%;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+
+.porqueVacunarme h3{
+    font-size: 3em;
+    color: #1F3E72;
+}
+
+.porqueVacunarme p{
+    margin-top: -250px;
+    /* font-size: 1.5em; */
+}
+.row{
+    margin-left: -150px;
+    margin-top: -200px;
+    /* cursor: pointer;
+    transition: all 0.5s; */
+}
+
+.card{
+    width: 270px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card-title{
+    margin-bottom: 60px;
+    font-size: 1.5em;
+    color: #1F3E72;
+}
+
+.card-text{
+    height: 100px;
+}
+
+.vaccine{
+    width: 100%;
+    height: 100%;
+    margin-top: 500px;
+    position: absolute;
+    display: flex;
+}
+.vaccine .imgBanner{
+    width: 40%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.preparation{
+    width: 40%;
+    height: 100%;
+}
+
+.preparation h3{
+    margin-top: -150px;
+    margin-bottom: -600px;
+    font-size: 2em;
+    color: #1F3E72;
+}
+
+.preparation p{
+    font-size: 1rem;
+    margin-bottom: -600px;
+}
+
+.preparation .card{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.preparation .card .card-title{
+    margin-bottom: -125px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.preparation .card .card-text{
+    margin-left: 15px;
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    margin-top: 1200px;
+    position: absolute;
+    display: flex;
+}
+
+.info-contact {
+    margin-left: 100px;
+    height: 100%;
+    width: 40%;
+}
+
+.info-contact h3{
+    margin-bottom: -600px;
+    color: #1F3E72;
+}
+.info-contact p{
+    margin-bottom: -500px;
+}
+
+.info-contact .phone{
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.phone h5{
+    margin-bottom: -150px;
+    color:#1F3E72;
+}
+
+.phone p{
+    margin-bottom: -200px;
+}
+
+.phone button{
+    margin-top: 100px;
+    height: 50px;
+}
+.info-contact .chat{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -200px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.chat h5{
+    margin-bottom: -150px;
+    color: #1F3E72;
+}
+.chat p{
+    margin-bottom: -200px;
+}
+
+.chat button{
+    margin-top: 100px;
+    height: 50px;
+    background-color: #2C4CCA;
+}
+.info-contact .video-call{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.video-call h5{
+    margin-bottom: -150px;
+    color: #1F3E72;
+}
+.video-call p{
+    margin-bottom: -200px;
+}
+
+.video-call button{
+    margin-top: 100px;
+    height: 50px;
+}
+
+.info-contact .message{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -200px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.message h5{
+    margin-bottom: -150px;
+    color:#1F3E72;
+}
+
+.message p{
+    margin-bottom:-200px;
+}
+.message button{
+    margin-top: 100px;
+    height: 50px;
+}
+
+.contact .img{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 750px;
+    object-fit: cover;
+}
+.footer{
+    width: 100%;
+    height: 50%;
+    margin-top: 2300px;
+    display: flex;
+    position: absolute;
+    background-color: #EEF3FF;
+}
+
+.footer .col-sm-6 h5{
+    font-size: 1.5em;
+    margin-bottom: -300px;
+    color:#1F3E72;
+    background-color: #EEF3FF;
+}
+.footer p{
+    height: 100px;
+    background-color: #EEF3FF;
+}
+.footer .col-sm-6{
+    width: 40%;
+    padding-left: 100px;
+    background-color: #EEF3FF;
+}
+
+.footer .col-sm-3{
+    width: 15%;
+    height: 10%;
+    background-color: #EEF3FF;
+}
+.col-sm-3 h5{
+    background-color: #EEF3FF;
+}
+
+.col-sm-3 h5 .final{
+    padding-bottom: -300px;
+}
+
+.footer .licencia{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    margin-top: 300px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: #EEF3FF;
+}
+
+.footer .terminos{
+    height: 20px;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: 800px;
+    position: absolute;
+    background-color: #EEF3FF;
+}
